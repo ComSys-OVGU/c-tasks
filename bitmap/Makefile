@@ -11,16 +11,13 @@ folder:
 	mkdir -p obj 
 
 clean:
-	rm -f fib
+	rm -f compose-bmp 
 	rm -rf obj
 
 run: compose-bmp
 	./compose-bmp
 
-obj/main.o: compoe-bmp.c 
-	$(CC) $(CFLAGS) -c -o $@ $<
-
-obj/%.o: %.c 
+obj/%.o: src/%.c 
 	$(CC) $(CFLAGS) -c -o $@ $<
 
 compose-bmp: $(OBJS)
