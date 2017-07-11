@@ -14,7 +14,7 @@ folder:
 	mkdir -p obj 
 
 clean:
-	rm -f fib
+	rm -f prime 
 	rm -rf obj
 
 run: prime
