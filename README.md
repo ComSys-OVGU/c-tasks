@@ -11,18 +11,11 @@ This repository contains practical C programming tasks covering different aspect
  - Some tasks also require [GDB](https://www.gnu.org/software/gdb/), [Valgrind](http://valgrind.org/) and [Wireshark](https://www.wireshark.org/)
  - On Linux and BSD this software can often easily obtained using a package manager
 
-## Data Structures
- - [tree](tree)
-
-## Algorithms
- - [fib](fib)
-
-## Network Programming
-
-## Data Encoding
- - [bitmap](bitmap)
-
-## Parallel Programming
- - [prime](prime)
-
-## Debugging
+## Table of Contents
+- [Introduction](01-introduction)
+- [Data Structures](02-data-structures)
+- [Algorithms](03-algorithms)
+- [Network](04-network)
+- [Data Encoding](05-data-encoding)
+- [Parallel Programming](06-parallel-programming)
+- [Debugging](07-debugging)
