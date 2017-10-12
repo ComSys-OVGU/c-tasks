@@ -1,7 +1,7 @@
 .PHONY: clean
 
 hello.o: hello.c
-	$(CC) $(CFLAGS) -o $@ $<
+	$(CC) -c $(CFLAGS) -o $@ $<
 
 clean:
 	rm -f hello.o hello
