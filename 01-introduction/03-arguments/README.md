@@ -23,8 +23,9 @@ programs.
 - If the application is called with one or more arguments, of which at least one
   is "shrubbery", it should print: "We are no longer The Knights Who Say "Ni!".
   We are now The Knights Who Say Ekki-Ekki-Ekki-Ekki-PTANG. Zoom-Boing.
-  Z'nourrwringmm. Bring us another shrubbery. Slightly higher than the first one.
-  Then you now must cut down the mightiest tree in the forest - with a herring!"
+  Z'nourrwringmm. Bring us another shrubbery. Slightly higher than the first
+  one. Then you now must cut down the mightiest tree in the forest - with a
+  herring!"
 - If the application is called with five or more arguments, of which at least
   five are "it", it should print: "Arrhhg!". This has priority over the
   "shrubbery"-case
