@@ -9,7 +9,7 @@ the C source file of the program `cp` would be terrible for its usability.
 Instead, `cp` allows to specify source and destination at runtime by calling it
 with command line arguments, e.g. `cp orignal_file copy_of_original_file`.
 
-In this task you will learn who to use command line arguments in your own C
+In this task you will learn how to use command line arguments in your own C
 programs.
 
 ## Task
@@ -18,7 +18,7 @@ programs.
 	  solution
 	- A Makefile for this program is already provided
 - If `knights` is called with no arguments, it should print: "We are The Knights
-  Who Say "Ni!". We demand a shrubbery. One that looks nice. And not to
+  Who Say "Ni!". We demand a shrubbery. One that looks nice. And not too
   expensive."
 - If the application is called with one or more arguments, of which at least one
   is "shrubbery", it should print: "We are no longer The Knights Who Say "Ni!".
@@ -29,6 +29,6 @@ programs.
 - If the application is called with five or more arguments, of which at least
   five are "it", it should print: "Arrhhg!". This has priority over the
   "shrubbery"-case
-- If no of the cases above match, the command should behave as it was called
+- If none of the cases above match, the command should behave as it was called
   with no arguments
 - The current source code in `knights.c` contains some useful hints
